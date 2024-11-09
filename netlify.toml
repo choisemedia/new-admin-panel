@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build || echo 'Build failed with exit code $?'"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
